@@ -93,7 +93,9 @@ Estilos disponibles (uno por archivo en `assets/`):
 publico `github.com/Mickaell22/readme-chulo`. Leer el catalogo ANTES de elegir estilo y colores.
 Al terminar un README nuevo: copiar su titulo a `galeria/<repo>.svg`, agregar su celda a la Galeria,
 su fila al Catalogo y marcar el estilo en "Estilos de titulo"; luego commit + push de esta carpeta
-(con autorizacion del usuario y sin ninguna linea de atribucion).
+(sin ninguna linea de atribucion). Hacerlo con un Agent en segundo plano (`run_in_background: true`)
+para no cargar el contexto principal. Solo si `gh api user -q .login` es `Mickaell22` (dueño del
+repo); cualquier otro usuario lleva su propio registro en su copia, sin pushear.
 
 Si todos ya se usaron en otros repos, crea una variante nueva combinando
 tecnicas SMIL (clip-path animado, stroke-dashoffset, blur, steps discrete)
