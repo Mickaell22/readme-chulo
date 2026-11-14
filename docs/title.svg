@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="130" viewBox="0 0 760 130" fill="none" role="img" aria-label="readme-chulo">
+  <!-- Estilo "Draw": el wordmark se borra, se vuelve a dibujar con el trazo
+       (stroke-dashoffset) y despues se rellena. Frame 0 = dibujado y relleno
+       (legible donde no hay animacion).
+       Adaptar: el texto y x (centro, text-anchor=middle), DASH >= perimetro del
+       trazo de una letra (600 sirve para font-size 64), y los stops del gradiente. -->
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6c5ce7"/>
+      <stop offset="0.3" stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#22c55e"/>
+      <stop offset="0.8" stop-color="#ffc940"/>
+      <stop offset="1" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+  <text x="380" y="88" text-anchor="middle" font-family="'DejaVu Sans Mono','JetBrains Mono',Consolas,monospace"
+        font-size="64" font-weight="bold" fill="url(#ink)" stroke="url(#ink)" stroke-width="2"
+        stroke-dasharray="600" stroke-dashoffset="0">readme-chulo<animate attributeName="stroke-dashoffset" values="0;600;600;0;0" keyTimes="0;0.06;0.1;0.6;1" dur="7s" repeatCount="indefinite"/><animate attributeName="fill-opacity" values="1;0;0;0;1;1" keyTimes="0;0.05;0.1;0.55;0.72;1" dur="7s" repeatCount="indefinite"/></text>
+</svg>

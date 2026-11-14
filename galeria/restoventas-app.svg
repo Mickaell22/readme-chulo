@@ -1,0 +1,22 @@
+<!--
+  Wordmark animado de RestoVentas (estilo GLOW: un neon naranja respira detras
+  del texto nitido). Colores de marca: #ea580c (brand) sobre glow #f97316.
+  El texto nitido va en el naranja de marca a proposito: un tono claro como el
+  de la plantilla original desaparece sobre el fondo blanco del tema claro de
+  GitHub. #ea580c pasa 3:1 (texto grande) sobre blanco y sobre #0d1117.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="130" viewBox="0 0 820 130" fill="none" role="img" aria-label="RestoVentas">
+  <defs>
+    <filter id="blur" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <!-- capa glow: late -->
+  <text x="410" y="82" text-anchor="middle" font-family="'DejaVu Sans Mono','JetBrains Mono','Consolas',monospace" font-size="52" font-weight="bold" fill="#f97316" filter="url(#blur)" opacity="0.5">RestoVentas
+    <animate attributeName="opacity" values="0.3;0.85;0.3" dur="2.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1; 0.4 0 0.2 1" keyTimes="0;0.5;1"/>
+  </text>
+
+  <!-- capa nitida -->
+  <text x="410" y="82" text-anchor="middle" font-family="'DejaVu Sans Mono','JetBrains Mono','Consolas',monospace" font-size="52" font-weight="bold" fill="#ea580c">RestoVentas</text>
+</svg>
