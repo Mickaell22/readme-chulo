@@ -88,6 +88,7 @@ Estilos disponibles (uno por archivo en `assets/`):
 | Marquee | `banner_marquee.py` (generador, banner ancho 1000x300) | destello que recorre el borde (stroke-dashoffset), frases de rol que rotan con fade+slide, cinta de tecnologias en bucle | perfiles de GitHub, landings de persona/equipo |
 | Split-flap | `title_flap.py PALABRA salida.svg` (generador) | fichas de tablero de aeropuerto que barajan letras y se asientan en cascada | agregadores, pipelines, tableros, cosas con "listas" |
 | Draw | `title-draw.svg` | el trazo (stroke-dashoffset) dibuja el nombre y despues se rellena | herramientas de diseño, colecciones, cosas "hechas a mano" |
+| Graph | `title_graph.py PALABRA salida.svg` (generador; `SPLIT` = letras en color claro) | el nombre sobre una rama de commits: frame 0 completo, se apaga, la rama se dibuja (stroke-dashoffset), cada commit enciende su letra (subida + fade), una rama naranja sale y vuelve con merge verde, un commit con brillo la recorre en bucle | herramientas de git, devtools, versiones, pipelines |
 
 **Registro de lo usado: `README.md` de esta carpeta** (seccion Catalogo). Esta carpeta es el repo
 publico `github.com/Mickaell22/readme-chulo`. Leer el catalogo ANTES de elegir estilo y colores.

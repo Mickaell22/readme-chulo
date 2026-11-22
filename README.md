@@ -6,8 +6,8 @@
 
 <br/>
 
-[![10 READMEs](https://img.shields.io/badge/10-READMEs-6C5CE7?style=for-the-badge)](#galeria)
-[![10 estilos de titulo](https://img.shields.io/badge/10-estilos_de_titulo-22C55E?style=for-the-badge)](#estilos-de-titulo)
+[![11 READMEs](https://img.shields.io/badge/11-READMEs-6C5CE7?style=for-the-badge)](#galeria)
+[![11 estilos de titulo](https://img.shields.io/badge/11-estilos_de_titulo-22C55E?style=for-the-badge)](#estilos-de-titulo)
 [![SVG sin servicios externos](https://img.shields.io/badge/SVG-sin_servicios_externos-EA580C?style=for-the-badge)](#como-funciona)
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-skill-D97757?style=flat-square)](https://docs.claude.com/en/docs/claude-code/skills)
@@ -45,6 +45,10 @@ Los titulos animados de cada README, tal como estan en su repo. Click para ver e
 <td align="center"><a href="https://github.com/Mickaell22/mickaell-portafolio"><img src="galeria/mickaell-portafolio.svg" alt="mickaell-portafolio" width="380"/></a><br/><b>mickaell-portafolio</b> · cascade</td>
 <td align="center"><a href="https://github.com/Mickaell22/Mickaell22"><img src="galeria/Mickaell22.svg" alt="Perfil Mickaell22" width="380"/></a><br/><b>Perfil Mickaell22</b> · marquee</td>
 </tr>
+<tr>
+<td align="center"><a href="https://github.com/Mickaell22/mickhub"><img src="galeria/mickhub.svg" alt="MickHub" width="380"/></a><br/><b>MickHub</b> · graph</td>
+<td></td>
+</tr>
 </table>
 
 ---
@@ -65,6 +69,7 @@ La fuente de verdad que la skill lee antes de elegir: **un estilo de titulo no s
 | [restopanel](https://github.com/Mickaell22/restopanel) | underline | `#6366F1` `#22C55E` | logo + captura del panel | |
 | [mickaell-portafolio](https://github.com/Mickaell22/mickaell-portafolio) | cascade (claro y oscuro) | `#22C55E` | captura de la home | capturas de secciones y movil |
 | [Perfil Mickaell22](https://github.com/Mickaell22/Mickaell22) | marquee (banner) | `#A78BFA` `#22D3EE` | banner de roles | portadas de proyectos, grilla de stack |
+| [MickHub](https://github.com/Mickaell22/mickhub) | graph | `#2E8FFF` `#F0883E` `#3FB950` | captura real de Cambios con la escena del dia y la mascota en la barra | tarjetas de features, capturas de Historial y Personalizacion, galeria de 12 escenas, hoja de mascotas, mermaid de la API, atajos |
 | readme-chulo (este repo) | draw | degradado de los acentos de arriba | galeria de titulos | |
 
 `restoventas-backend` y `restopanel` comparten underline a proposito: son el mismo producto.
@@ -89,6 +94,7 @@ Cada uno vive en [`assets/`](assets) con sus instrucciones de adaptacion en el c
 | Marquee | `banner_marquee.py` | banner con borde que destella y roles que rotan | perfil |
 | Split-flap | `title_flap.py` | fichas de aeropuerto que barajan y se asientan | ApplyJob |
 | Draw | `title-draw.svg` | el trazo dibuja el nombre y despues se rellena | readme-chulo |
+| Graph | `title_graph.py` | el nombre se arma sobre una rama de commits, con merge y un commit que la recorre | MickHub |
 
 **Todos estan usados.** El proximo README estrena un estilo nuevo y lo agrega aqui.
 
